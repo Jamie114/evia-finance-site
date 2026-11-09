@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname www.nicholasservices.com.au",
+    "deploy": "gh-pages -d dist --repo https://github.com/Jamie114/evia-finance-site.git --cname www.eviafinance.com.au",
     "test:duty": "node tests/duty.test.mjs",
     "test:calculators": "node tests/calculators.test.mjs",
     "test:public": "node tests/public-site.test.mjs",
